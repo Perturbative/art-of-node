@@ -208,10 +208,9 @@ addOne(function thisGetsRunAfterAddOneFinishes() {})
 
 [![](standard_form_quadratic.gif)]
 
-<blockquote> <i>The Standard Callback Form is analogous to the "Standard Form" for equations in Mathematics. Like the Standard Form of the Quadratic Equation. It's not the only way write out quadratics and then solve them, it's just a handy agreed-upon style (a convention), that people like to use.</i> </blockquote>
+<blockquote> <i>The Standard Callback Form is analogous to the "Standard Form" for equations in Mathematics. The standard form for quadratics is not the only way write out quadratics and then solve them, it's just a handy agreed-upon style (a convention), that people like to use. Likewise, the style that most developers prefer to use for callbacks is not the only way to write callbacks and not the only way to handle something asynchronously. It is just an easy way to write callbacks that most developers prefer.</i> </blockquote>
 
-Think of the Standard Callback Form as the standard convention for writing callbacks. There are other ways which this can be accomplished, but this is the qucikest and most
-accepted way to write callbacks in Node.
+Think of the Standard Callback Form as the standard convention for writing callbacks. There are other ways which this can be accomplished, but this is the quickest and most accepted way to write callbacks in Node.
 
 Imagine you had 3 async functions `a`, `b` and `c`. Each one takes 1 minute to run and after it finishes it calls a callback (that gets passed in the first argument). If you wanted to tell node 'start running a, then run b after a finishes, and then run c after b finishes' it would look like this:
 
