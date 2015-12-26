@@ -208,7 +208,7 @@ addOne(function thisGetsRunAfterAddOneFinishes() {})
 
 [![](standard_form_quadratic.gif)]
 
-<blockquote> The Standard Callback Form is analogous to the "Standard Form" for equations in Mathematics. Like the Standard Form of the Quadratic Equation.  It's not the only way write out quadratics and then solve them, it's just a handy agreed-upon style (a convention), that people like to use. </blockquote>
+<blockquote> <i>The Standard Callback Form is analogous to the "Standard Form" for equations in Mathematics. Like the Standard Form of the Quadratic Equation. It's not the only way write out quadratics and then solve them, it's just a handy agreed-upon style (a convention), that people like to use.</i> </blockquote>
 
 Think of the Standard Callback Form as the standard convention for writing callbacks. There are other ways which this can be accomplished, but this is the qucikest and most
 accepted way to write callbacks in Node.
