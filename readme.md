@@ -204,7 +204,12 @@ function addOne(thenRunThisFunction) {
 addOne(function thisGetsRunAfterAddOneFinishes() {})
 ```
 
-###The Callback Formula
+###The Standard Callback Form
+
+> The Standard Callback Form is analogous to the "Standard Form" for equations in Mathematics. Like the Standard Form of the Quadratic Equation. $$ax^2 + bx + c = 0$$. It's not the only way write out quadratics and then solve them, it's just a handy agreed-upon style (a convention), that people like to use.
+
+Think of the Standard Callback Form as the standard convention for writing callbacks. There are other ways which this can be accomplished, but this is the qucikest and most
+accepted way to write callbacks in Node.
 
 Imagine you had 3 async functions `a`, `b` and `c`. Each one takes 1 minute to run and after it finishes it calls a callback (that gets passed in the first argument). If you wanted to tell node 'start running a, then run b after a finishes, and then run c after b finishes' it would look like this:
 
