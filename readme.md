@@ -341,7 +341,7 @@ chatClient.on('message', function() {
 })
 ```
 
-This approach is similar to the pure-callback approach but introduces the `.on` method, which subscribes a callback to an event. This means you can choose which events you want to subscribe to from the `chatClient`. You can also subscribe to the same event multiple times with different callbacks:
+**This approach is similar to the pure-callback approach but introduces the `.on` method, which subscribes a callback to an event.** This means you can choose which events you want to subscribe to from the `chatClient`. You can also subscribe to the same event multiple times with different callbacks:
 
 ```js
 var chatClient = require('my-chat-client').connect()
